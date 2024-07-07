@@ -46,7 +46,7 @@
 
                     <!-- You may not need annotationProcessorPaths if
                     jstachio-apt is added as an option dep -->
-<!--
+                    <!--
                     <annotationProcessorPaths>
                         <path>
                             <groupId>io.jstach</groupId>
@@ -95,7 +95,7 @@
             <version>1.2.5</version>
         </dependency>
 
-<!--
+        <!--
         <dependency>
             <groupId>io.jstach</groupId>
             <artifactId>jstachio</artifactId>
@@ -107,6 +107,15 @@
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
             <artifactId>jersey-media-json-binding</artifactId>
+        </dependency>
+        -->
+
+        <!-- https://maciejwalkowiak.com/blog/postgres-uuid-primary-key/
+        // UUID uuid = Generators.timeBasedEpochGenerator().generate();
+        <dependency>
+            <groupId>com.fasterxml.uuid</groupId>
+            <artifactId>java-uuid-generator</artifactId>
+            <version>5.0.0</version>
         </dependency>
         -->
 
